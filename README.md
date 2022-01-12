@@ -2,6 +2,7 @@
 Starter project for html, css, javascript. Uses npm and lite-server. Provides project structure. Thats all, no frameworks, no sass or less, barebones.
 
 To make it go in Visual Studio Code, you must have node installed
+
 Open terminal in root directory
 
 run - `npm install`
