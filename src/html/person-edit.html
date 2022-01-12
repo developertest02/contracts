@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/site.css"/>
+    <title>Person Edit</title>
+  </head>
+  <body>
+    <h1>Start</h1>
+    <form>
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"/>
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"/>
+      </div>
+      <div>
+          <!-- we assign our click event, to our button click event in person-edit.js -->
+        <button type="button" onclick="onSaveClick()">Save</button>
+      </div>
+    </form>
+    <div>
+        <button type="button" onclick="showCurrentPerson()">Show Saved Person</button>
+    </div>
+    <div>
+        <div>
+            <span>Saved Person First Name: </span><span id="currentPersonFirstName"></span>
+        </div>
+        <div>
+            <span>Saved Person Last Name: </span><span id="currentPersonLastName"></span>
+        </div>
+    </div>
+  </body>
+  <!-- Need to include scripts, person.js is first because person-edit.js relies on person.js (i.e. person-edit.js has dependency on person.js) -->
+  <script type="text/javascript" src="../js/person.js"></script>
+  <script type="text/javascript" src="../js/person-edit.js"></script>
+</html>
