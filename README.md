@@ -1,6 +1,10 @@
 # contracts
 Starter project for html, css, javascript. Uses npm and lite-server. Provides project structure. Thats all, no frameworks, no sass or less, barebones.
 
+Fork this repository into your own github profile
+
+Clone the repository in Visual Studio Code
+
 To make it go in Visual Studio Code, you must have node installed
 
 Open terminal in root directory
